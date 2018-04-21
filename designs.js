@@ -24,5 +24,13 @@ function makeGrid() {
           tr.appendChild(td);
         }
     }
-
+}
+//change cell color
+function changeCellColor() {
+    canvas.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (e.target.nodeName === 'TD') {
+            target.style.backgroundColor = color.value;
+        }
+    })
 }
