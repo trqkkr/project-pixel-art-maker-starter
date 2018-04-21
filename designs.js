@@ -30,7 +30,14 @@ function changeCellColor() {
     canvas.addEventListener('click', function(e) {
         e.preventDefault();
         if (e.target.nodeName === 'TD') {
-            target.style.backgroundColor = color.value;
+            e.target.style.backgroundColor = color.value;
         }
     })
 }
+//after grid size is picked, call makeGrid();
+size.addEventListener('submit', function(e) {
+    e.preventDefault();
+    clearOldGrid();
+    makeGrid();
+    changeCellColor();
+})
