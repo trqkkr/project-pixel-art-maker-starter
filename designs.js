@@ -11,16 +11,15 @@ function clearOldGrid() {
 }
 //make new grid
 function makeGrid() {
-    let tr, td;
     //create table
     //for loop runs inside, out
     //so create td, append it to tr
     //create tr, append it to canvas
     for (let i = 0; i < height.value; i++) {
-        tr = document.createElement('tr');
+        let tr = document.createElement('tr');
         canvas.appendChild(tr);
         for (let j = 0; j < width.value; j++) {
-          td = document.createElement('td');
+        let td = document.createElement('td');
           tr.appendChild(td);
         }
     }
