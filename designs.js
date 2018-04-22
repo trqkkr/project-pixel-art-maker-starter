@@ -28,7 +28,6 @@ function makeGrid() {
 //change cell color
 function changeCellColor() {
     canvas.addEventListener('click', function(e) {
-        e.preventDefault();
         if (e.target.nodeName === 'TD') {
             e.target.style.backgroundColor = color.value;
         }
