@@ -3,17 +3,22 @@ body {
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: 'Bungee Shade', cursive;
     font-size: 70px;
     margin: 0.2em;
 }
 
 h2 {
+    font-family: 'Bungee Shade', cursive;
     margin: 1em 0 0.25em;
 }
 
 h2:first-of-type {
     margin-top: 0.5em;
+}
+
+span {
+  font-family: 'Bungee', cursive;
 }
 
 table,
