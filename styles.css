@@ -11,6 +11,7 @@ h1 {
 h2 {
     font-family: 'Bungee Shade', cursive;
     margin: 1em 0 0.25em;
+
 }
 
 h2:first-of-type {
@@ -18,7 +19,8 @@ h2:first-of-type {
 }
 
 span {
-  font-family: 'Bungee', cursive;
+    font-family: 'Bungee', cursive;
+
 }
 
 table,
